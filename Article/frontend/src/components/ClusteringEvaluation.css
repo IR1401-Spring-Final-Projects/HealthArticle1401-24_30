@@ -1,0 +1,30 @@
+.clustering-results_container {
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.clustering-results_title {
+  color: #99e8e5;
+  padding: 16px;
+  margin: 0;
+}
+
+.clustering-results_container span:last-child {
+  margin-bottom: 16px;
+}
+
+.clustering-items {
+  display: block;
+  padding: 8px;
+  color: white;
+}
+
+.result-container img {
+  width: 90%;
+  height: auto;
+}
