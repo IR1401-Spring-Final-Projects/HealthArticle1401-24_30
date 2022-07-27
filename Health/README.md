@@ -9,9 +9,11 @@ To run Django App first go to the backend directory. Create a virtual environmen
 You need to have elastic search installed on your local. At the end of the file elastic_search.py in information_retrieval/health_retrieval directory put your elastic path like this:
 ##### `elastic_model = ElasticSearch(elasticsearch_path="C:\\elasticsearch\\elasticsearch-7.3.2\\bin\\elasticsearch.bat")`
 Note that for the back-end you need a models directory near the root of back-end that contains models. (For security reasons we don't push them here)
+You can download models [here](https://drive.google.com/drive/folders/1hfMy0i3KUqeGr9P2Kar8kgSaXndpuhj5?usp=sharing).
 Now, you can run server with this command.
 ### `python manage.py runserver`
 It's time to run the front-end project.
+
 ## Run React App
 To run the front-end project go to frontend directory. If you don't have nodejs and npm on your pc, first install them.
 Then for first time run:
